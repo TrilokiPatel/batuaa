@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Muli-Light.ttf">
+            <string>Muli-Light</string>
+        </array>
+        <array key="Muli.ttf">
+            <string>Muli</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="149" id="KGk-i7-Jjw" customClass="BankTableCell" customModule="batuaa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Sz-fN-rgQ">
+                        <rect key="frame" x="20" y="0.0" width="280" height="149"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Holder Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLz-99-kp4">
+                                <rect key="frame" x="8" y="8" width="130" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="MKa-0A-Q8c"/>
+                                    <constraint firstAttribute="height" constant="14" id="wkW-BR-Qjn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Light" family="Muli" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paras Dua" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucv-18-zR7">
+                                <rect key="frame" x="8" y="30" width="141" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="4Do-mF-1RZ"/>
+                                    <constraint firstAttribute="width" constant="141" id="D1R-yt-LLv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYI-Cz-Hub">
+                                <rect key="frame" x="8" y="53" width="103" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="7qS-FH-dVF"/>
+                                    <constraint firstAttribute="height" constant="14" id="thU-jl-OpZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Light" family="Muli" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9876543210123456" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExU-Dv-M1m">
+                                <rect key="frame" x="8" y="75" width="141" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="aD6-lj-gC6"/>
+                                    <constraint firstAttribute="height" constant="15" id="fqx-8U-O23"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IFSC Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePf-a2-F3s">
+                                <rect key="frame" x="8" y="98" width="58.5" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58.5" id="mda-fJ-ZFR"/>
+                                    <constraint firstAttribute="height" constant="18" id="rEa-5R-fub"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Light" family="Muli" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UTIB0000007" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dP-hQ-CXP">
+                                <rect key="frame" x="8" y="124" width="111" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="8yL-PF-hMe"/>
+                                    <constraint firstAttribute="height" constant="15" id="aUs-Qc-AdY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OD8-DY-5lT">
+                                <rect key="frame" x="160" y="99" width="80" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9yv-YY-pnu"/>
+                                    <constraint firstAttribute="height" constant="14" id="w9I-RC-Zhr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli-Light" family="Muli" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saving" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-rk-Rq5">
+                                <rect key="frame" x="160" y="121" width="111" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="Ina-wW-5YL"/>
+                                    <constraint firstAttribute="height" constant="18" id="eIy-AK-Nhe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0C-tS-1DI">
+                                <rect key="frame" x="210" y="8" width="62" height="24"/>
+                                <color key="backgroundColor" red="0.33725490200000002" green="0.74117647060000003" blue="0.42352941179999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="cgO-Sk-Wk4"/>
+                                    <constraint firstAttribute="width" constant="62" id="zeu-6E-U5f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLx-24-X3C">
+                                <rect key="frame" x="223" y="40" width="49" height="23"/>
+                                <color key="backgroundColor" red="0.61568627450980395" green="0.61568627450980395" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="606-Ev-0FJ"/>
+                                    <constraint firstAttribute="width" constant="49" id="oak-Hu-nTG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Muli" family="Muli" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Edit">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nLz-99-kp4" firstAttribute="top" secondItem="7Sz-fN-rgQ" secondAttribute="top" constant="8" id="3cQ-fg-3l4"/>
+                            <constraint firstItem="yYI-Cz-Hub" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="57Q-RU-7uQ"/>
+                            <constraint firstAttribute="trailing" secondItem="H0C-tS-1DI" secondAttribute="trailing" constant="8" id="6Hu-13-FSD"/>
+                            <constraint firstItem="ExU-Dv-M1m" firstAttribute="top" secondItem="yYI-Cz-Hub" secondAttribute="bottom" constant="8" symbolic="YES" id="6dl-il-fsC"/>
+                            <constraint firstItem="ePf-a2-F3s" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="6jn-ua-Qdu"/>
+                            <constraint firstItem="OD8-DY-5lT" firstAttribute="top" secondItem="ExU-Dv-M1m" secondAttribute="bottom" constant="9" id="A7g-vs-t2K"/>
+                            <constraint firstItem="R2w-rk-Rq5" firstAttribute="top" secondItem="OD8-DY-5lT" secondAttribute="bottom" constant="8" id="Btg-Vq-n9T"/>
+                            <constraint firstItem="H0C-tS-1DI" firstAttribute="top" secondItem="7Sz-fN-rgQ" secondAttribute="top" constant="8" id="Guw-ed-rIp"/>
+                            <constraint firstItem="mLx-24-X3C" firstAttribute="top" secondItem="H0C-tS-1DI" secondAttribute="bottom" constant="8" id="MqM-3v-fay"/>
+                            <constraint firstItem="ucv-18-zR7" firstAttribute="top" secondItem="nLz-99-kp4" secondAttribute="bottom" constant="8" symbolic="YES" id="PR7-C9-oLf"/>
+                            <constraint firstAttribute="trailing" secondItem="mLx-24-X3C" secondAttribute="trailing" constant="8" id="UWY-gh-l7z"/>
+                            <constraint firstItem="ePf-a2-F3s" firstAttribute="top" secondItem="ExU-Dv-M1m" secondAttribute="bottom" constant="8" symbolic="YES" id="db9-7W-vH1"/>
+                            <constraint firstItem="nLz-99-kp4" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="eWm-Yf-Bvn"/>
+                            <constraint firstItem="yYI-Cz-Hub" firstAttribute="top" secondItem="ucv-18-zR7" secondAttribute="bottom" constant="8" symbolic="YES" id="hOs-4n-Wcf"/>
+                            <constraint firstItem="R2w-rk-Rq5" firstAttribute="leading" secondItem="6dP-hQ-CXP" secondAttribute="trailing" constant="41" id="iOS-RI-oCt"/>
+                            <constraint firstItem="ExU-Dv-M1m" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="mhb-bR-JGL"/>
+                            <constraint firstItem="6dP-hQ-CXP" firstAttribute="top" secondItem="ePf-a2-F3s" secondAttribute="bottom" constant="8" symbolic="YES" id="n3D-Jo-ax4"/>
+                            <constraint firstItem="OD8-DY-5lT" firstAttribute="leading" secondItem="ePf-a2-F3s" secondAttribute="trailing" constant="93.5" id="nFQ-tN-nIm"/>
+                            <constraint firstItem="6dP-hQ-CXP" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="o8s-zQ-ZOm"/>
+                            <constraint firstItem="ucv-18-zR7" firstAttribute="leading" secondItem="7Sz-fN-rgQ" secondAttribute="leading" constant="8" id="tOA-hf-JpN"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="7Sz-fN-rgQ" secondAttribute="trailing" constant="20" id="39L-hI-2S0"/>
+                    <constraint firstAttribute="bottom" secondItem="7Sz-fN-rgQ" secondAttribute="bottom" id="beL-Vu-g7I"/>
+                    <constraint firstItem="7Sz-fN-rgQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ma0-Mv-T7c"/>
+                    <constraint firstItem="7Sz-fN-rgQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="pnf-oN-7Se"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="acHolderName" destination="ucv-18-zR7" id="4rA-kF-F1g"/>
+                <outlet property="acNumber" destination="ExU-Dv-M1m" id="ehy-PB-WCZ"/>
+                <outlet property="acType" destination="R2w-rk-Rq5" id="cg6-RK-Od4"/>
+                <outlet property="btnEdit" destination="mLx-24-X3C" id="F5j-jz-u2Q"/>
+                <outlet property="ifscCode" destination="6dP-hQ-CXP" id="YB8-Ne-MnP"/>
+                <outlet property="lblActivate" destination="H0C-tS-1DI" id="77b-Rl-ieP"/>
+            </connections>
+            <point key="canvasLocation" x="53.623188405797109" y="82.03125"/>
+        </tableViewCell>
+    </objects>
+</document>
